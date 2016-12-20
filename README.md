@@ -9,6 +9,10 @@ I've been working on Raspberry Pi Zero stuff mainly. I'm a super newbie in terms
 A pHAT-like add-on board that adds a headphone jack to your Raspberry Pi Zero.
 This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) that is licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
+![zeroaudio1 front](images/zeroaudio1-front.png)
+
+![zeroaudio2 back](images/zeroaudio1-front.png)
+
 ### zerocontrol1
 
 A pHAT-like add-on board that adds a cursor key (via GPIO) and a [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) to your Raspberry Pi Zero.
