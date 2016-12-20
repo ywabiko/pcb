@@ -11,7 +11,7 @@ This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](ht
 
 ### zerocontrol1
 
-A pHAT-like add-on board that adds a cursor key (via GPIO) and a 0.96" I2C OLED to your Raspberry Pi Zero.
+A pHAT-like add-on board that adds a cursor key (via GPIO) and a [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) to your Raspberry Pi Zero.
 
 ### zerocontrol2
 
@@ -55,7 +55,7 @@ Raspberry Pi Zero にゲームパッド（上下さかさま）をつけるた�
 
 ### zeroui1
 
-Raspberry Pi Zero にヘッドフォン端子と、[9.6" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) と、7ボタンのカーソルキーをつけるための pHAT のようなボードです。
+Raspberry Pi Zero にヘッドフォン端子と、[0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) と、7ボタンのカーソルキーをつけるための pHAT のようなボードです。
 
 このPCBの回路は [PWM オーディオ出力回路 by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) から [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) に基づいてリミックスされた回路を使用しています。
 
