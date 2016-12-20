@@ -10,25 +10,42 @@ A pHAT-like add-on board that adds a headphone jack to your Raspberry Pi Zero.
 This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) that is licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ![zeroaudio1 front](images/zeroaudio1-front.png)
-![zeroaudio2 back](images/zeroaudio1-front.png)
+![zeroaudio2 back](images/zeroaudio1-back.png)
 
 ### zerocontrol1
 
 A pHAT-like add-on board that adds a cursor key (via GPIO) and a [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) to your Raspberry Pi Zero.
 
+![zerocontrol1 front](images/zerocontrol1-front.png)
+![zerocontrol1 back](images/zerocontrol1-back.png)
+
 ### zerocontrol2
 
 A pHAT-like add-on board that adds a game pad (via GPIO) your Raspberry Pi Zero.
 
+![zerocontrol2 front](images/zerocontrol2-front.png)
+![zerocontrol2 back](images/zerocontrol2-back.png)
+
 ### zerocontrol3
 
 A pHAT-like add-on board that adds a game pad (via GPIO) that is designed to be used together with [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315).
+
+![zerocontrol3 front](images/zerocontrol3-front.png)
+![zerocontrol3 back](images/zerocontrol3-back.png)
 
 ### zeroui1
 
 A pHAT-like add-on board that adds a headphone jack, [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled), and a 7-button cursor key (via GPIO) to your Raspberry Pi Zero.
 
 This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) that is licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+
+![zeroui1 front](images/zeroui1-front.png)
+![zeroui1 back](images/zeroui1-back.png)
+
+## Acknowledgements
+
+  - Electronic circuit [Adafruit](www.adafruit.com)
+  - PCB fabrication servide [OSH Park](oshpark.com)
 
 
 # KiCADで作成しているPCBのソース。
@@ -47,14 +64,25 @@ Raspberry Pi Zero にヘッドフォン端子をつけるための pHAT のよ�
 
 Raspberry Pi Zero にカーソルキーと [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) をつけるための pHAT のようなボードです。
 
+![zerocontrol1 front](images/zerocontrol1-front.png)
+![zerocontrol1 back](images/zerocontrol1-back.png)
+
 ### zerocontrol2
 
 Raspberry Pi Zero にゲームパッドをつけるための pHAT のようなボードです。
+
+![zerocontrol2 front](images/zerocontrol2-front.png)
+![zerocontrol2 back](images/zerocontrol2-back.png)
+
 
 ### zerocontrol3
 
 Raspberry Pi Zero にゲームパッド（上下さかさま）をつけるための pHAT のようなボードです。
 [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315) と組み合わせることが前提の設計ですが、他にも使えるかもしれません。
+
+![zerocontrol3 front](images/zerocontrol3-front.png)
+![zerocontrol3 back](images/zerocontrol3-back.png)
+
 
 ### zeroui1
 
@@ -62,3 +90,10 @@ Raspberry Pi Zero にヘッドフォン端子と、[0.96" I2C OLED](https://www.
 
 このPCBの回路は [PWM オーディオ出力回路 by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) から [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) に基づいてリミックスされた回路を使用しています。
 
+![zeroui1 front](images/zeroui1-front.png)
+![zeroui1 back](images/zeroui1-back.png)
+
+## 謝辞
+
+  - 電子回路全般 [Adafruit](www.adafruit.com)
+  - PCB生産委託 [OSH Park](oshpark.com)
