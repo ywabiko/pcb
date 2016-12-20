@@ -28,7 +28,7 @@ A pHAT-like add-on board that adds a game pad (via GPIO) your Raspberry Pi Zero.
 
 ### zerocontrol3
 
-A pHAT-like add-on board that adds a game pad (via GPIO) that is designed to be used together with [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315).
+A pHAT-like add-on board that adds a game pad (via GPIO) that is designed to be used together with [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315). Please note that the game pad is laid out up-side-down by design.
 
 ![zerocontrol3 front](images/zerocontrol3-front.png)
 ![zerocontrol3 back](images/zerocontrol3-back.png)
@@ -59,6 +59,10 @@ This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](ht
 Raspberry Pi Zero にヘッドフォン端子をつけるための pHAT のようなボードです。
 
 このPCBの回路は [PWM オーディオ出力回路 by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) から [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) に基づいてリミックスされた回路を使用しています。
+
+![zeroaudio1 front](images/zeroaudio1-front.png)
+![zeroaudio2 back](images/zeroaudio1-back.png)
+
 
 ### zerocontrol1
 
