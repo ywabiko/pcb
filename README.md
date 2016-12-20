@@ -10,7 +10,6 @@ A pHAT-like add-on board that adds a headphone jack to your Raspberry Pi Zero.
 This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) that is licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ![zeroaudio1 front](images/zeroaudio1-front.png)
-
 ![zeroaudio2 back](images/zeroaudio1-front.png)
 
 ### zerocontrol1
