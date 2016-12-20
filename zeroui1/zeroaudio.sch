@@ -1,0 +1,537 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:zeroaudio-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 P1
+U 1 1 582E40D1
+P 5100 4600
+F 0 "P1" H 5100 5650 50  0000 C CNN
+F 1 "CONN_02X20" V 5100 4600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 5100 3650 50  0001 C CNN
+F 3 "" H 5100 3650 50  0000 C CNN
+	1    5100 4600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4250 4350
+NoConn ~ 4450 4350
+NoConn ~ 4550 4350
+NoConn ~ 4750 4350
+NoConn ~ 4950 4350
+NoConn ~ 5050 4350
+NoConn ~ 5150 4350
+NoConn ~ 5250 4350
+NoConn ~ 5350 4350
+NoConn ~ 5450 4350
+NoConn ~ 5550 4350
+NoConn ~ 5650 4350
+NoConn ~ 6050 4350
+NoConn ~ 5850 4850
+NoConn ~ 5450 4850
+NoConn ~ 5350 4850
+NoConn ~ 5250 4850
+NoConn ~ 5150 4850
+NoConn ~ 5050 4850
+NoConn ~ 4950 4850
+NoConn ~ 4650 4850
+NoConn ~ 4450 4850
+$Comp
+L CONN_01X03 P2
+U 1 1 582E4324
+P 8000 3050
+F 0 "P2" H 8000 3250 50  0000 C CNN
+F 1 "CONN_01X03" V 8100 3050 50  0000 C CNN
+F 2 "lib:SJ1-3513N" H 8000 3050 50  0001 C CNN
+F 3 "" H 8000 3050 50  0000 C CNN
+	1    8000 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 582E4830
+P 5650 2600
+F 0 "R1" V 5730 2600 50  0000 C CNN
+F 1 "R" V 5650 2600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 5580 2600 50  0001 C CNN
+F 3 "" H 5650 2600 50  0000 C CNN
+	1    5650 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 582E495C
+P 5650 3550
+F 0 "R2" V 5730 3550 50  0000 C CNN
+F 1 "R" V 5650 3550 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 5580 3550 50  0001 C CNN
+F 3 "" H 5650 3550 50  0000 C CNN
+	1    5650 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 582E4990
+P 6650 2900
+F 0 "R3" V 6730 2900 50  0000 C CNN
+F 1 "R" V 6650 2900 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6580 2900 50  0001 C CNN
+F 3 "" H 6650 2900 50  0000 C CNN
+	1    6650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 582E49C7
+P 6650 3700
+F 0 "R4" V 6730 3700 50  0000 C CNN
+F 1 "R" V 6650 3700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6580 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0000 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 582E49FF
+P 6250 2900
+F 0 "C3" H 6275 3000 50  0000 L CNN
+F 1 "C" H 6275 2800 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 6288 2750 50  0001 C CNN
+F 3 "" H 6250 2900 50  0000 C CNN
+	1    6250 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 582E4A93
+P 6250 3700
+F 0 "C4" H 6275 3800 50  0000 L CNN
+F 1 "C" H 6275 3600 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 6288 3550 50  0001 C CNN
+F 3 "" H 6250 3700 50  0000 C CNN
+	1    6250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C1
+U 1 1 582E4ABD
+P 7050 2600
+F 0 "C1" H 7075 2700 50  0000 L CNN
+F 1 "CP" H 7075 2500 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 7088 2450 50  0001 C CNN
+F 3 "" H 7050 2600 50  0000 C CNN
+	1    7050 2600
+	0    -1   1    0   
+$EndComp
+$Comp
+L CP C2
+U 1 1 582E4AFF
+P 7050 3550
+F 0 "C2" H 7075 3650 50  0000 L CNN
+F 1 "CP" H 7075 3450 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 7088 3400 50  0001 C CNN
+F 3 "" H 7050 3550 50  0000 C CNN
+	1    7050 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 582E4F66
+P 6450 3200
+F 0 "#PWR01" H 6450 2950 50  0001 C CNN
+F 1 "GND" H 6450 3050 50  0000 C CNN
+F 2 "" H 6450 3200 50  0000 C CNN
+F 3 "" H 6450 3200 50  0000 C CNN
+	1    6450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 582E4F96
+P 6450 3850
+F 0 "#PWR02" H 6450 3600 50  0001 C CNN
+F 1 "GND" H 6450 3700 50  0000 C CNN
+F 2 "" H 6450 3850 50  0000 C CNN
+F 3 "" H 6450 3850 50  0000 C CNN
+	1    6450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 582E5358
+P 7800 3350
+F 0 "#PWR03" H 7800 3100 50  0001 C CNN
+F 1 "GND" H 7800 3200 50  0000 C CNN
+F 2 "" H 7800 3350 50  0000 C CNN
+F 3 "" H 7800 3350 50  0000 C CNN
+	1    7800 3350
+	1    0    0    -1  
+$EndComp
+Text Label 4700 2550 0    60   ~ 0
+PWM0_OUT
+Text Label 5250 3500 0    60   ~ 0
+PWM1_OUT
+Text Label 7450 2550 0    60   ~ 0
+LINEOUT_R
+Text Label 7200 3000 0    60   ~ 0
+LINEOUT_L
+$Comp
+L GND #PWR04
+U 1 1 582F7280
+P 6450 4850
+F 0 "#PWR04" H 6450 4600 50  0001 C CNN
+F 1 "GND" H 6450 4700 50  0000 C CNN
+F 2 "" H 6450 4850 50  0000 C CNN
+F 3 "" H 6450 4850 50  0000 C CNN
+	1    6450 4850
+	1    0    0    -1  
+$EndComp
+Text Notes 7950 2750 0    60   ~ 0
+3.5mm Headphone Jack
+Text Notes 7350 7500 0    60   ~ 0
+Raspberry Pi Zero Headphone Output Extension with OLED support
+Text Notes 6650 3900 0    60   ~ 0
+150R
+Text Notes 6700 3100 0    60   ~ 0
+150R
+Text Notes 5550 2800 0    60   ~ 0
+270R
+Text Notes 5550 3750 0    60   ~ 0
+270R
+Text Notes 6950 2800 0    60   ~ 0
+10u
+Text Notes 7000 3750 0    60   ~ 0
+10u
+Text Notes 6000 3750 0    60   ~ 0
+33n
+Text Notes 5950 2950 0    60   ~ 0
+33n
+NoConn ~ 4150 4350
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 584B4454
+P 6600 4850
+F 0 "#FLG05" H 6600 4945 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 5030 50  0000 C CNN
+F 2 "" H 6600 4850 50  0000 C CNN
+F 3 "" H 6600 4850 50  0000 C CNN
+	1    6600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 585730F0
+P 3000 5400
+F 0 "P3" H 3000 5650 50  0000 C CNN
+F 1 "CONN_01X04" V 3100 5400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 3000 5400 50  0001 C CNN
+F 3 "" H 3000 5400 50  0000 C CNN
+	1    3000 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 58573131
+P 8600 4550
+F 0 "SW1" H 8600 4650 50  0000 C CNN
+F 1 "SPST" H 8600 4450 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 4550 50  0001 C CNN
+F 3 "" H 8600 4550 50  0000 C CNN
+	1    8600 4550
+	1    0    0    -1  
+$EndComp
+Text Label 3250 5550 0    60   ~ 0
+VCC
+Text Label 3250 5450 0    60   ~ 0
+GND
+Text Label 3250 5350 0    60   ~ 0
+SCL
+Text Label 3250 5250 0    60   ~ 0
+SDA
+Text Label 4150 5050 1    60   ~ 0
+3V3
+Text Label 4250 5050 1    60   ~ 0
+SDA
+Text Label 4350 5050 1    60   ~ 0
+SCL
+$Comp
+L SPST SW2
+U 1 1 58573B4B
+P 8600 4850
+F 0 "SW2" H 8600 4950 50  0000 C CNN
+F 1 "SPST" H 8600 4750 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 4850 50  0001 C CNN
+F 3 "" H 8600 4850 50  0000 C CNN
+	1    8600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW3
+U 1 1 58573B8C
+P 8600 5150
+F 0 "SW3" H 8600 5250 50  0000 C CNN
+F 1 "SPST" H 8600 5050 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 5150 50  0001 C CNN
+F 3 "" H 8600 5150 50  0000 C CNN
+	1    8600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW4
+U 1 1 58573BDA
+P 8600 5450
+F 0 "SW4" H 8600 5550 50  0000 C CNN
+F 1 "SPST" H 8600 5350 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 5450 50  0001 C CNN
+F 3 "" H 8600 5450 50  0000 C CNN
+	1    8600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW5
+U 1 1 58573C1F
+P 8600 5750
+F 0 "SW5" H 8600 5850 50  0000 C CNN
+F 1 "SPST" H 8600 5650 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 5750 50  0001 C CNN
+F 3 "" H 8600 5750 50  0000 C CNN
+	1    8600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW6
+U 1 1 58573C6B
+P 8600 6050
+F 0 "SW6" H 8600 6150 50  0000 C CNN
+F 1 "SPST" H 8600 5950 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 6050 50  0001 C CNN
+F 3 "" H 8600 6050 50  0000 C CNN
+	1    8600 6050
+	1    0    0    -1  
+$EndComp
+Text Label 4650 4300 1    60   ~ 0
+PWM0
+Text Label 5750 5150 1    60   ~ 0
+PWM1
+$Comp
+L SPST SW7
+U 1 1 5857410C
+P 8600 6350
+F 0 "SW7" H 8600 6450 50  0000 C CNN
+F 1 "SPST" H 8600 6250 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 6350 50  0001 C CNN
+F 3 "" H 8600 6350 50  0000 C CNN
+	1    8600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 58575FF2
+P 9450 6350
+F 0 "#PWR06" H 9450 6100 50  0001 C CNN
+F 1 "GND" H 9450 6200 50  0000 C CNN
+F 2 "" H 9450 6350 50  0000 C CNN
+F 3 "" H 9450 6350 50  0000 C CNN
+	1    9450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 58586B77
+P 4550 6600
+F 0 "#PWR07" H 4550 6350 50  0001 C CNN
+F 1 "GND" H 4550 6450 50  0000 C CNN
+F 2 "" H 4550 6600 50  0000 C CNN
+F 3 "" H 4550 6600 50  0000 C CNN
+	1    4550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW8
+U 1 1 5858747C
+P 8600 4250
+F 0 "SW8" H 8600 4350 50  0000 C CNN
+F 1 "SPST" H 8600 4150 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8600 4250 50  0001 C CNN
+F 3 "" H 8600 4250 50  0000 C CNN
+	1    8600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2600 6900 2600
+Wire Wire Line
+	5800 3550 6900 3550
+Wire Wire Line
+	7200 2600 7800 2600
+Wire Wire Line
+	7800 2600 7800 2950
+Wire Wire Line
+	7800 3050 7450 3050
+Wire Wire Line
+	7450 3050 7450 3550
+Wire Wire Line
+	7450 3550 7200 3550
+Wire Wire Line
+	7800 3150 7800 3350
+Connection ~ 6250 3550
+Connection ~ 6650 3550
+Connection ~ 6450 3850
+Wire Wire Line
+	6250 3050 6250 3200
+Wire Wire Line
+	6250 3200 6650 3200
+Wire Wire Line
+	6650 3200 6650 3050
+Connection ~ 6450 3200
+Wire Wire Line
+	6250 2600 6250 2750
+Connection ~ 6250 2600
+Wire Wire Line
+	6650 2600 6650 2750
+Connection ~ 6650 2600
+Wire Wire Line
+	4650 4350 4650 2600
+Wire Wire Line
+	4650 2600 5500 2600
+Wire Wire Line
+	5750 4850 5750 5050
+Wire Wire Line
+	5750 5050 6150 5050
+Wire Wire Line
+	6150 5050 6150 4050
+Wire Wire Line
+	6150 4050 5400 4050
+Wire Wire Line
+	5400 4050 5400 3550
+Wire Wire Line
+	5400 3550 5500 3550
+Wire Wire Line
+	4150 4850 4150 5550
+Wire Wire Line
+	4150 5550 3200 5550
+Wire Wire Line
+	4250 4850 4250 5250
+Wire Wire Line
+	4250 5250 3200 5250
+Wire Wire Line
+	4350 4850 4350 5350
+Wire Wire Line
+	4350 5350 3200 5350
+Wire Wire Line
+	5950 4350 5950 4300
+Wire Wire Line
+	5950 4300 7900 4300
+Wire Wire Line
+	7900 4300 7900 4850
+Wire Wire Line
+	7900 4850 8100 4850
+Wire Wire Line
+	5850 4350 5850 4200
+Wire Wire Line
+	5850 4200 7950 4200
+Wire Wire Line
+	7950 4200 7950 4550
+Wire Wire Line
+	7950 4550 8100 4550
+Wire Wire Line
+	6250 3850 6650 3850
+Wire Wire Line
+	5950 4850 5950 5150
+Wire Wire Line
+	5950 5150 8100 5150
+Wire Wire Line
+	5650 4850 5650 5450
+Wire Wire Line
+	5650 5450 8100 5450
+Wire Wire Line
+	5550 4850 5550 5750
+Wire Wire Line
+	5550 5750 8100 5750
+Wire Wire Line
+	4850 4850 4850 6050
+Wire Wire Line
+	4850 6050 8100 6050
+Wire Wire Line
+	4750 4850 4750 6350
+Wire Wire Line
+	4750 6350 8100 6350
+Wire Wire Line
+	6050 4850 6600 4850
+Connection ~ 6450 4850
+Wire Wire Line
+	9100 6350 9450 6350
+Wire Wire Line
+	9100 4250 9100 6350
+Connection ~ 9100 4850
+Connection ~ 9100 5150
+Connection ~ 9100 5450
+Connection ~ 9100 5750
+Connection ~ 9100 6050
+Connection ~ 9100 6350
+Wire Wire Line
+	3200 5450 3900 5450
+Wire Wire Line
+	3900 5450 3900 4200
+Wire Wire Line
+	3900 4200 4350 4200
+Wire Wire Line
+	4350 4200 4350 4350
+Wire Wire Line
+	4550 4850 4550 6600
+Wire Wire Line
+	4850 4150 8050 4150
+Wire Wire Line
+	8050 4150 8050 4250
+Wire Wire Line
+	8050 4250 8100 4250
+Wire Wire Line
+	5750 4350 5750 4250
+Wire Wire Line
+	5750 4250 6450 4250
+Wire Wire Line
+	6450 4250 6450 4850
+Wire Wire Line
+	4850 4350 4850 4150
+Connection ~ 9100 4550
+$EndSCHEMATC

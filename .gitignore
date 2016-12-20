@@ -18,3 +18,21 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# KiCAD artifacts
+*.Cu.gbl
+*.Mask.gbs
+*.SilkS.gbo
+*.SilkS.zip
+*.Cuts.gm1
+*.Cu.gtl
+*.Mask.gts
+*.SilkS.gto
+*.drl
+#*.lib
+*.bak
+*.drl
+*.kicad_pcb-bak
+*.net
+*.pdf
+*~

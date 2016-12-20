@@ -1,0 +1,399 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:zerocontrol-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X20 P1
+U 1 1 582E40D1
+P 5100 4600
+F 0 "P1" H 5100 5650 50  0000 C CNN
+F 1 "CONN_02X20" V 5100 4600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 5100 3650 50  0001 C CNN
+F 3 "" H 5100 3650 50  0000 C CNN
+	1    5100 4600
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4250 4350
+NoConn ~ 4750 4350
+NoConn ~ 5050 4350
+NoConn ~ 5250 4350
+NoConn ~ 5350 4350
+NoConn ~ 5450 4350
+NoConn ~ 5550 4350
+NoConn ~ 5650 4350
+NoConn ~ 5950 4350
+NoConn ~ 6050 4350
+NoConn ~ 5650 4850
+NoConn ~ 5550 4850
+NoConn ~ 5450 4850
+NoConn ~ 5250 4850
+NoConn ~ 5150 4850
+NoConn ~ 5050 4850
+NoConn ~ 4950 4850
+NoConn ~ 4450 4850
+NoConn ~ 4150 4850
+NoConn ~ 4350 4350
+$Comp
+L GND #PWR01
+U 1 1 582F758E
+P 4550 5000
+F 0 "#PWR01" H 4550 4750 50  0001 C CNN
+F 1 "GND" H 4550 4850 50  0000 C CNN
+F 2 "" H 4550 5000 50  0000 C CNN
+F 3 "" H 4550 5000 50  0000 C CNN
+	1    4550 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 7500 0    60   ~ 0
+Raspberry Pi Zero Headphone Output Extension with OLED support
+$Comp
+L GND #PWR02
+U 1 1 584093CC
+P 6250 4250
+F 0 "#PWR02" H 6250 4000 50  0001 C CNN
+F 1 "GND" H 6250 4100 50  0000 C CNN
+F 2 "" H 6250 4250 50  0000 C CNN
+F 3 "" H 6250 4250 50  0000 C CNN
+	1    6250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 584093E1
+P 6400 4850
+F 0 "#PWR03" H 6400 4600 50  0001 C CNN
+F 1 "GND" H 6400 4700 50  0000 C CNN
+F 2 "" H 6400 4850 50  0000 C CNN
+F 3 "" H 6400 4850 50  0000 C CNN
+	1    6400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4850 4550 5000
+Wire Wire Line
+	5750 4350 5750 4250
+Wire Wire Line
+	5750 4250 6250 4250
+Wire Wire Line
+	6050 4850 6400 4850
+Wire Wire Line
+	4650 4850 4650 5300
+Wire Wire Line
+	4650 5300 3900 5300
+Wire Wire Line
+	3900 5300 3900 1750
+Wire Wire Line
+	3900 1750 7300 1750
+Wire Wire Line
+	4750 4850 4750 5400
+Wire Wire Line
+	4750 5400 3800 5400
+Wire Wire Line
+	3800 5400 3800 2350
+Wire Wire Line
+	3800 2350 7250 2350
+Wire Wire Line
+	4850 4850 4850 5500
+Wire Wire Line
+	4850 5500 3950 5500
+Wire Wire Line
+	3950 5500 3950 3000
+Wire Wire Line
+	3950 3000 7250 3000
+Wire Wire Line
+	4850 4350 4850 3700
+Wire Wire Line
+	4850 3700 7250 3700
+Wire Wire Line
+	4950 4350 4950 3900
+Wire Wire Line
+	4950 3900 6950 3900
+Wire Wire Line
+	6950 3900 6950 4400
+Wire Wire Line
+	6950 4400 7250 4400
+Wire Wire Line
+	5850 4850 5850 5900
+Wire Wire Line
+	5850 5900 7250 5900
+Wire Wire Line
+	5950 4850 5950 5150
+Wire Wire Line
+	5950 5150 7250 5150
+NoConn ~ 5750 4850
+NoConn ~ 4650 4350
+$Comp
+L GND #PWR04
+U 1 1 5840A4BA
+P 5350 5000
+F 0 "#PWR04" H 5350 4750 50  0001 C CNN
+F 1 "GND" H 5350 4850 50  0000 C CNN
+F 2 "" H 5350 5000 50  0000 C CNN
+F 3 "" H 5350 5000 50  0000 C CNN
+	1    5350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4850 5350 5000
+Wire Wire Line
+	8250 5900 8800 5900
+Wire Wire Line
+	8800 900  8800 6300
+Wire Wire Line
+	8250 5150 8800 5150
+$Comp
+L GND #PWR05
+U 1 1 5840A6D7
+P 8800 6300
+F 0 "#PWR05" H 8800 6050 50  0001 C CNN
+F 1 "GND" H 8800 6150 50  0000 C CNN
+F 2 "" H 8800 6300 50  0000 C CNN
+F 3 "" H 8800 6300 50  0000 C CNN
+	1    8800 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8800 5900
+Wire Wire Line
+	8250 4400 8800 4400
+Connection ~ 8800 5150
+Wire Wire Line
+	8250 3700 8800 3700
+Connection ~ 8800 4400
+Wire Wire Line
+	8250 3000 8800 3000
+Connection ~ 8800 3700
+Wire Wire Line
+	8250 2350 8800 2350
+Connection ~ 8800 3000
+Wire Wire Line
+	8300 1750 8800 1750
+Connection ~ 8800 2350
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 5840A9E9
+P 6600 4650
+F 0 "#FLG06" H 6600 4745 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 4830 50  0000 C CNN
+F 2 "" H 6600 4650 50  0000 C CNN
+F 3 "" H 6600 4650 50  0000 C CNN
+	1    6600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4850 6400 4650
+Wire Wire Line
+	6400 4650 6600 4650
+$Comp
+L SPST SW7
+U 1 1 5840B167
+P 7800 1750
+F 0 "SW7" H 7800 1850 50  0000 C CNN
+F 1 "SPST" H 7800 1650 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7800 1750 50  0001 C CNN
+F 3 "" H 7800 1750 50  0000 C CNN
+	1    7800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 5840B646
+P 7750 2350
+F 0 "SW1" H 7750 2450 50  0000 C CNN
+F 1 "SPST" H 7750 2250 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7750 2350 50  0001 C CNN
+F 3 "" H 7750 2350 50  0000 C CNN
+	1    7750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW2
+U 1 1 5840B676
+P 7750 3000
+F 0 "SW2" H 7750 3100 50  0000 C CNN
+F 1 "SPST" H 7750 2900 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7750 3000 50  0001 C CNN
+F 3 "" H 7750 3000 50  0000 C CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW3
+U 1 1 5840B6C0
+P 7750 3700
+F 0 "SW3" H 7750 3800 50  0000 C CNN
+F 1 "SPST" H 7750 3600 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7750 3700 50  0001 C CNN
+F 3 "" H 7750 3700 50  0000 C CNN
+	1    7750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW4
+U 1 1 5840B704
+P 7750 4400
+F 0 "SW4" H 7750 4500 50  0000 C CNN
+F 1 "SPST" H 7750 4300 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7750 4400 50  0001 C CNN
+F 3 "" H 7750 4400 50  0000 C CNN
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW5
+U 1 1 5840B73D
+P 7750 5150
+F 0 "SW5" H 7750 5250 50  0000 C CNN
+F 1 "SPST" H 7750 5050 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7750 5150 50  0001 C CNN
+F 3 "" H 7750 5150 50  0000 C CNN
+	1    7750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW6
+U 1 1 5840B77F
+P 7750 5900
+F 0 "SW6" H 7750 6000 50  0000 C CNN
+F 1 "SPST" H 7750 5800 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7750 5900 50  0001 C CNN
+F 3 "" H 7750 5900 50  0000 C CNN
+	1    7750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW9
+U 1 1 58410462
+P 7800 1300
+F 0 "SW9" H 7800 1400 50  0000 C CNN
+F 1 "SPST" H 7800 1200 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7800 1300 50  0001 C CNN
+F 3 "" H 7800 1300 50  0000 C CNN
+	1    7800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW8
+U 1 1 584104A2
+P 7800 900
+F 0 "SW8" H 7800 1000 50  0000 C CNN
+F 1 "SPST" H 7800 800 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 7800 900 50  0001 C CNN
+F 3 "" H 7800 900 50  0000 C CNN
+	1    7800 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1300 8800 1300
+Connection ~ 8800 1750
+Wire Wire Line
+	8300 900  8800 900 
+Connection ~ 8800 1300
+Wire Wire Line
+	5150 4350 5150 900 
+Wire Wire Line
+	5150 900  7300 900 
+Wire Wire Line
+	5850 4350 5850 1300
+Wire Wire Line
+	5850 1300 7300 1300
+NoConn ~ 4150 4350
+NoConn ~ 4250 4850
+NoConn ~ 4350 4850
+$Comp
+L SPST SW11
+U 1 1 58410D0A
+P 2750 3750
+F 0 "SW11" H 2750 3850 50  0000 C CNN
+F 1 "SPST" H 2750 3650 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 2750 3750 50  0001 C CNN
+F 3 "" H 2750 3750 50  0000 C CNN
+	1    2750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW10
+U 1 1 58410D6B
+P 2750 3300
+F 0 "SW10" H 2750 3400 50  0000 C CNN
+F 1 "SPST" H 2750 3200 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 2750 3300 50  0001 C CNN
+F 3 "" H 2750 3300 50  0000 C CNN
+	1    2750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4350 4450 4300
+Wire Wire Line
+	4450 4300 2000 4300
+Wire Wire Line
+	2000 4300 2000 3300
+Wire Wire Line
+	2000 3300 2250 3300
+Wire Wire Line
+	4550 4350 4550 4150
+Wire Wire Line
+	4550 4150 2100 4150
+Wire Wire Line
+	2100 4150 2100 3750
+Wire Wire Line
+	2100 3750 2250 3750
+$Comp
+L GND #PWR07
+U 1 1 58410FD6
+P 3450 3900
+F 0 "#PWR07" H 3450 3650 50  0001 C CNN
+F 1 "GND" H 3450 3750 50  0000 C CNN
+F 2 "" H 3450 3900 50  0000 C CNN
+F 3 "" H 3450 3900 50  0000 C CNN
+	1    3450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3750 3450 3750
+Wire Wire Line
+	3450 3300 3450 3900
+Wire Wire Line
+	3250 3300 3450 3300
+Connection ~ 3450 3750
+$EndSCHEMATC
