@@ -42,10 +42,10 @@ This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](ht
 ![zeroui1 front](images/zeroui1-front.png)
 ![zeroui1 back](images/zeroui1-back.png)
 
-## Acknowledgements
+## Acknowledgments
 
   - Electronic circuit [Adafruit](www.adafruit.com)
-  - PCB fabrication servide [OSH Park](oshpark.com)
+  - PCB fabrication service [OSHA Park](oshpark.com)
 
 
 # KiCADで作成しているPCBのソース。
