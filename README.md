@@ -1,10 +1,11 @@
 # KiCAD projects for Raspberry Pi Zero
-# ラズパイ向けPCBのKiCADソース
 
 I've been working on Raspberry Pi Zero stuff mainly. I'm a super newbie in terms of electronic circuit and PCB design, but I've placed them here in this repo just in case someone finds them useful.
 
 By uploading *.kicad_pcb file to [OSH Park](oshpark.com), anyone can get the exact same PCB.
 Add-on boards for Raspberry Pi Zero would cost $15/3 boards or so, and ones for Raspberry Pi would cost $29/3 boards or so.
+
+# ラズパイ向けPCBのKiCADソース
 
 現在は Raspberry Pi Zero 関連が主たるターゲットになっています。電子回路もPCB設計も超ど素人ですが、何かの参考になれば。
 
