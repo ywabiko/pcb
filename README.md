@@ -15,8 +15,7 @@ Add-on boards for Raspberry Pi Zero would cost $15/3 boards or so, and ones for 
 Raspberry Pi Zero 用で $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 
 
-# Raspberry Pi Zero stuff
-# Raspberry Pi Zero 関連
+# Raspberry Pi Zero stuff / Raspberry Pi Zero 関連
 
 ## zeroaudio1
 
