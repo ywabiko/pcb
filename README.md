@@ -2,6 +2,9 @@
 
 I've been working on Raspberry Pi Zero stuff mainly. I'm a super newbie in terms of electronic circuit and PCB design, but I've placed them here in this repo just in case someone finds them useful.
 
+By uploading *.kicad_pcb file to [OSH Park](oshpark.com), anyone can get the exact same PCB.
+Add-on boards for Raspberry Pi Zero would cost $15/3 boards or so, and ones for Raspberry Pi would cost $29/3 boards or so.
+
 ## Raspberry Pi Zero stuff
 
 ### zeroaudio1
@@ -64,12 +67,16 @@ This PCB uses a circuit that was remixed from
 ## Acknowledgments
 
   - Electronic circuit [Adafruit](www.adafruit.com)
-  - PCB fabrication service [OSHA Park](oshpark.com)
+  - PCB fabrication service [OSH Park](oshpark.com)
 
 
 # KiCADで作成しているPCBのソース。
 
 現在は Raspberry Pi Zero 関連が主たるターゲットになっています。電子回路もPCB設計も超ど素人ですが、何かの参考になれば。
+
+[OSH Park](oshpark.com) に *.kicad_pcbファイルをアップロードすれば、誰でもPCB基板を手に入れることができます。
+Raspberry Pi Zero 用で $15/3枚、Raspberry Pi用で$29/3枚ほどです。
+
 
 ## Raspberry Pi Zero 関連
 
@@ -130,7 +137,7 @@ Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘ�
 
 ### piamp1
 
-Raspberry Pi 3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。NJM5532D がいるので zeroamp1よりも正統派のヘッドフォンアンプになっている予定。
+Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
 
 このPCBの回路は
 [Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm)
