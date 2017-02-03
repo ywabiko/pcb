@@ -1,4 +1,4 @@
-# PCB source files I made with KiCAD.
+# KiCAD projects for Raspberry Pi Zero
 
 I've been working on Raspberry Pi Zero stuff mainly. I'm a super newbie in terms of electronic circuit and PCB design, but I've placed them here in this repo just in case someone finds them useful.
 
@@ -50,6 +50,7 @@ This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](ht
 ### zeroamp1
 
 A pHAT-like add-on board that adds I2S DAC PCM5102A that should be able to work as an headphone amplifier (HPA).
+PCM5102's output pin is only line level, but it just worked when I plugged an earphone/headphone with [a breakout board out there](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac).
 
 ![zeroamp1 front](images/zeroamp1-front.png)
 ![zeroamp1 back](images/zeroamp1-back.png)
@@ -70,11 +71,13 @@ This PCB uses a circuit that was remixed from
   - PCB fabrication service [OSH Park](oshpark.com)
 
 
-# KiCADで作成しているPCBのソース。
+# ラズパイ向けPCBのKiCADソース
 
 現在は Raspberry Pi Zero 関連が主たるターゲットになっています。電子回路もPCB設計も超ど素人ですが、何かの参考になれば。
 
-[OSH Park](oshpark.com) に *.kicad_pcbファイルをアップロードすれば、誰でもPCB基板を手に入れることができます。
+はんだ付け初心者のためスルーホール/DIPが基本になっていますが I2Sになるとそうも言ってられず表面実装はじめました。
+
+[OSH Park](oshpark.com) に *.kicad_pcbファイルをアップロードすれば、誰でも下記のPCB基板を手に入れることができます。
 Raspberry Pi Zero 用で $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 
 
@@ -126,11 +129,11 @@ Raspberry Pi Zero にヘッドフォン端子と、[0.96" I2C OLED](https://www.
 ![zeroui1 front](images/zeroui1-front.png)
 ![zeroui1 back](images/zeroui1-back.png)
 
-UPDATE: OLEDに何か表示させているとそのノイズがひどいです。
+UPDATE: OLEDに何か表示させているとそのノイズがひどいです。チューニングが合っていないAMラジオくらい。
 
 ### zeroamp1
 
-Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
+Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォンアンプとして使ってみようという pHAT のようなボードです。PCM5102Aの出力はラインレベルですが、[巷のブレイクアウト](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac)にイヤフォンやヘッドフォンをつないだら意外に聴けたので。
 
 ![zeroamp1 front](images/zeroamp1-front.png)
 ![zeroamp1 back](images/zeroamp1-back.png)
