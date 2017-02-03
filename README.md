@@ -114,7 +114,7 @@ Raspberry Pi Zero にゲームパッドをつけるための pHAT のような�
 Raspberry Pi Zero にゲームパッド（上下さかさま）をつけるための pHAT のようなボードです。
 [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315) と組み合わせることが前提の設計ですが、他にも使えるかもしれません。
 
-UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。モメンタリースイッチのフットプリントを巷によくある6mm角4ピンから Panasonic EVQ11 に変更。
+UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。モメンタリースイッチのフットプリントを巷によくある6mm角4ピンから [Panasonic EVQ11互換](http://akizukidenshi.com/catalog/g/gP-08080/) に変更。
 
 ![zerocontrol3 front](images/zerocontrol3-1.2-front.png)
 ![zerocontrol3 back](images/zerocontrol3-1.2-back.png)
@@ -138,6 +138,9 @@ Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘ�
 ![zeroamp1 front](images/zeroamp1-front.png)
 ![zeroamp1 back](images/zeroamp1-back.png)
 
+#### 主な部品
+  - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
+
 ### piamp1
 
 Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
@@ -148,6 +151,11 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
 
 ![piamp1 front](images/piamp1-front.png)
 ![piamp1 back](images/piamp1-back.png)
+
+#### 主な部品
+  - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
+  - [NJM5532D](http://www.digikey.com/product-detail/en/njr-corporation-njrc/NJM5532D/NJM5532D-ND/805752)
+  - [LTC1144C](https://www.digikey.com/product-detail/en/linear-technology/LTC1144CN8-PBF/LTC1144CN8-PBF-ND/891681)
 
 ## 謝辞
 
