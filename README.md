@@ -69,7 +69,7 @@ This PCB uses a circuit that was remixed from
 
   - Electronic circuit [Adafruit](www.adafruit.com)
   - PCB fabrication service [OSH Park](oshpark.com)
-
+  - CAD software [KiCAD](http://kicad-pcb.org/)
 
 # ラズパイ向けPCBのKiCADソース
 
@@ -153,3 +153,4 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
 
   - 電子回路全般 [Adafruit](www.adafruit.com)
   - PCB生産委託 [OSH Park](oshpark.com)
+  - CADソフト [KiCAD](http://kicad-pcb.org/)
