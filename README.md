@@ -33,7 +33,7 @@ A pHAT-like add-on board that adds a game pad (via GPIO) that is designed to be 
 ![zerocontrol3 front](images/zerocontrol3-1.2-front.png)
 ![zerocontrol3 back](images/zerocontrol3-1.2-back.png)
 
-UPDATE: Moved GPIO pins to avoid I2S-related pins (12, 35, 40). Moved GND pins to GNDD pins used in zeroamp1 circuit.
+UPDATE: Moved GPIO pins to avoid I2S-related pins (12, 35, 40). Moved GND pins to GNDD pins used in zeroamp1 circuit. Changed footprint of momentary switches to Panasonic EVQ11.
 
 ### zeroui1
 
@@ -53,7 +53,7 @@ A pHAT-like add-on board that adds I2S DAC PCM5102A that should be able to work 
 
 ### piamp1
 
-A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D that should work as an headphone amplifier (HPA).
+A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
 
 This PCB uses a circuit that was remixed from
 [Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm).
@@ -82,6 +82,7 @@ Raspberry Pi Zero にヘッドフォン端子をつけるための pHAT のよ�
 ![zeroaudio1 front](images/zeroaudio1-front.png)
 ![zeroaudio2 back](images/zeroaudio1-back.png)
 
+NOTE: 音声にけっこうノイズが乗ります。AMラジオくらい。
 
 ### zerocontrol1
 
@@ -103,7 +104,7 @@ Raspberry Pi Zero にゲームパッドをつけるための pHAT のような�
 Raspberry Pi Zero にゲームパッド（上下さかさま）をつけるための pHAT のようなボードです。
 [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315) と組み合わせることが前提の設計ですが、他にも使えるかもしれません。
 
-UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。
+UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。モメンタリースイッチのフットプリントを巷によくある6mm角4ピンから Panasonic EVQ11 に変更。
 
 ![zerocontrol3 front](images/zerocontrol3-1.2-front.png)
 ![zerocontrol3 back](images/zerocontrol3-1.2-back.png)
@@ -129,7 +130,7 @@ Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘ�
 
 ### piamp1
 
-Raspberry Pi 3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
+Raspberry Pi 3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。NJM5532D がいるので zeroamp1よりも正統派のヘッドフォンアンプになっている予定。
 
 このPCBの回路は
 [Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm)
