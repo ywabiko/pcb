@@ -137,14 +137,8 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
   - [LTC1144C](https://www.digikey.com/product-detail/en/linear-technology/LTC1144CN8-PBF/LTC1144CN8-PBF-ND/891681)
   - [SJ1-3513-SMT-TR](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513-SMT-TR/CP1-3513SJCT-ND/659929)
 
-# Acknowledgments
+# Acknowledgments / 謝辞
 
-  - Electronic circuit [Adafruit](www.adafruit.com)
-  - PCB fabrication service [OSH Park](oshpark.com)
-  - CAD software [KiCAD](http://kicad-pcb.org/)
-
-# 謝辞
-
-  - 電子回路全般 [Adafruit](www.adafruit.com)
-  - PCB生産委託 [OSH Park](oshpark.com)
-  - CADソフト [KiCAD](http://kicad-pcb.org/)
+  - Electronic circuit / 電子回路全般 : [Adafruit](www.adafruit.com)
+  - PCB fabrication service / PCB生産委託 : [OSH Park](oshpark.com)
+  - CAD software / CAD ソフト : [KiCAD](http://kicad-pcb.org/)
