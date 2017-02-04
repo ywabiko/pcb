@@ -25,14 +25,17 @@ Raspberry Pi Zero 用で $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 A pHAT-like add-on board that adds a headphone jack to your Raspberry Pi Zero.
 This PCB uses a PWM audio circuit remixed from [PiZero PWM audio by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) that is licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
+NOTE: Noise is pretty loud, like AM radio.
+
 Raspberry Pi Zero にヘッドフォン端子をつけるための pHAT のようなボードです。
 
 このPCBの回路は [PWM オーディオ出力回路 by Adafruit](https://learn.adafruit.com/adding-basic-audio-ouput-to-raspberry-pi-zero/pi-zero-pwm-audio) から [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) に基づいてリミックスされた回路を使用しています。
 
-
-NOTE: Noise is pretty loud, like AM radio.
-
 NOTE: 音声にけっこうノイズが乗ります。AMラジオくらい。
+
+### BOM / 主な部品
+  - [SJ1-3513N](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513N/CP1-3513N-ND/738686)
+
 
 ## zerocontrol1
 
@@ -42,6 +45,9 @@ NOTE: 音声にけっこうノイズが乗ります。AMラジオくらい。
 A pHAT-like add-on board that adds a cursor key (via GPIO) and a [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) to your Raspberry Pi Zero.
 
 Raspberry Pi Zero にカーソルキーと [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) をつけるための pHAT のようなボードです。
+
+### BOM / 主な部品
+  - [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) 
 
 
 ## zerocontrol2
@@ -68,6 +74,8 @@ Raspberry Pi Zero にゲームパッド（上下さかさま）をつけるた�
 
 UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。モメンタリースイッチのフットプリントを巷によくある6mm角4ピンから [Panasonic EVQ11互換](http://akizukidenshi.com/catalog/g/gP-08080/) に変更。
 
+### BOM / 主な部品
+  - [Panasonic EVQ11](https://www.digikey.com/product-detail/en/panasonic-electronic-components/EVQ-11U04M/P8082STB-ND/259535)
 
 ## zeroui1
 
@@ -86,6 +94,9 @@ Raspberry Pi Zero にヘッドフォン端子と、[0.96" I2C OLED](https://www.
 
 UPDATE: OLEDに何か表示させているとそのノイズがひどいです。チューニングが合っていないAMラジオくらい。
 
+### BOM / 主な部品
+  - [SJ1-3513N](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513N/CP1-3513N-ND/738686)
+  - [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) 
 
 ## zeroamp1
 
