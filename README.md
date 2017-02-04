@@ -33,7 +33,7 @@ Raspberry Pi Zero にヘッドフォン端子をつけるための pHAT のよ�
 
 NOTE: 音声にけっこうノイズが乗ります。AMラジオくらい。
 
-### BOM / 主な部品
+##### BOM / 主な部品
   - [SJ1-3513N](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513N/CP1-3513N-ND/738686)
 
 
@@ -46,7 +46,7 @@ A pHAT-like add-on board that adds a cursor key (via GPIO) and a [0.96" I2C OLED
 
 Raspberry Pi Zero にカーソルキーと [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) をつけるための pHAT のようなボードです。
 
-### BOM / 主な部品
+##### BOM / 主な部品
   - [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) 
 
 
@@ -74,7 +74,7 @@ Raspberry Pi Zero にゲームパッド（上下さかさま）をつけるた�
 
 UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。モメンタリースイッチのフットプリントを巷によくある6mm角4ピンから [Panasonic EVQ11互換](http://akizukidenshi.com/catalog/g/gP-08080/) に変更。
 
-### BOM / 主な部品
+##### BOM / 主な部品
   - [Panasonic EVQ11](https://www.digikey.com/product-detail/en/panasonic-electronic-components/EVQ-11U04M/P8082STB-ND/259535)
 
 ## zeroui1
@@ -94,7 +94,7 @@ Raspberry Pi Zero にヘッドフォン端子と、[0.96" I2C OLED](https://www.
 
 UPDATE: OLEDに何か表示させているとそのノイズがひどいです。チューニングが合っていないAMラジオくらい。
 
-### BOM / 主な部品
+##### BOM / 主な部品
   - [SJ1-3513N](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513N/CP1-3513N-ND/738686)
   - [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) 
 
@@ -109,7 +109,7 @@ PCM5102's output pin is only line level, but it just worked when I plugged an ea
 Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォンアンプとして使ってみようという pHAT のようなボードです。PCM5102Aの出力はラインレベルですが、[巷のブレイクアウト](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac)にイヤフォンやヘッドフォンをつないだら意外に聴けたので。
 
 
-### BOM / 主な部品
+##### BOM / 主な部品
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
   - [SJ1-3513-SMT-TR](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513-SMT-TR/CP1-3513SJCT-ND/659929)
 
@@ -131,7 +131,7 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
 に掲載されている回路を参考にしています。
 
 
-### BOM / 主な部品
+##### BOM / 主な部品
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
   - [NJM5532D](http://www.digikey.com/product-detail/en/njr-corporation-njrc/NJM5532D/NJM5532D-ND/805752)
   - [LTC1144C](https://www.digikey.com/product-detail/en/linear-technology/LTC1144CN8-PBF/LTC1144CN8-PBF-ND/891681)
