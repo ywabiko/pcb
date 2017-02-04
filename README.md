@@ -35,7 +35,7 @@ NOTE: 音声にけっこうノイズが乗ります。AMラジオくらい。
 
 ##### BOM / 主な部品
   - [SJ1-3513N](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513N/CP1-3513N-ND/738686)
-
+  - [Tactical Switch](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536)
 
 ## zerocontrol1
 
@@ -48,6 +48,7 @@ Raspberry Pi Zero にカーソルキーと [0.96" I2C OLED](https://www.amazon.c
 
 ##### BOM / 主な部品
   - [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) 
+  - [Tactical Switch](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536)
 
 
 ## zerocontrol2
@@ -58,6 +59,10 @@ Raspberry Pi Zero にカーソルキーと [0.96" I2C OLED](https://www.amazon.c
 A pHAT-like add-on board that adds a game pad (via GPIO) your Raspberry Pi Zero.
 
 Raspberry Pi Zero にゲームパッドをつけるための pHAT のようなボードです。
+
+##### BOM / 主な部品
+  - [Tactical Switch](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536)
+
 
 
 ## zerocontrol3
@@ -97,6 +102,8 @@ UPDATE: OLEDに何か表示させているとそのノイズがひどいです�
 ##### BOM / 主な部品
   - [SJ1-3513N](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513N/CP1-3513N-ND/738686)
   - [0.96" I2C OLED](https://www.amazon.com/Diymall-Yellow-Serial-Arduino-Display/dp/B00O2LLT30/ref=sr_1_1?ie=UTF8&qid=1482212267&sr=8-1&keywords=diymall+oled) 
+  - [Tactical Switch](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536)
+
 
 ## zeroamp1
 
