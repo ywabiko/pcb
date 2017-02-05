@@ -67,8 +67,8 @@ Raspberry Pi Zero にゲームパッドをつけるための pHAT のような�
 
 ## zerocontrol3
 
-![zerocontrol3 front](images/zerocontrol3-1.2-front.png)
-![zerocontrol3 back](images/zerocontrol3-1.2-back.png)
+![zerocontrol3 front](images/zerocontrol3-front.png)
+![zerocontrol3 back](images/zerocontrol3-back.png)
 
 A pHAT-like add-on board that adds a game pad (via GPIO) that is designed to be used together with [Adafruit PiTFT 2.2](https://www.adafruit.com/products/2315). Please note that the game pad is laid out up-side-down by design.
 
@@ -81,6 +81,25 @@ UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また�
 
 ##### BOM / 主な部品
   - [Panasonic EVQ11](https://www.digikey.com/product-detail/en/panasonic-electronic-components/EVQ-11U04M/P8082STB-ND/259535)
+
+
+## zerocontrol4
+
+![zerocontrol4 front](images/zerocontrol4-front.png)
+![zerocontrol4 back](images/zerocontrol4-back.png)
+
+A pHAT-like add-on board that adds a cursor key (via GPIO) and a [1.3" SPI OLED](https://www.amazon.com/LANMU-SSH1106-128X64-Display-Arduino/dp/B01G596QWU/ref=sr_1_1?ie=UTF8&qid=1486331859&sr=8-1&keywords=1.3%22+SPI+OLED) to your Raspberry Pi Zero.
+
+Raspberry Pi Zero にカーソルキーと [1.3" SPI OLED](https://www.amazon.com/LANMU-SSH1106-128X64-Display-Arduino/dp/B01G596QWU/ref=sr_1_1?ie=UTF8&qid=1486331859&sr=8-1&keywords=1.3%22+SPI+OLED) をつけるための pHAT のようなボードです。
+
+UPDATE: I2Sで必要なピン(12,35,40)を使わないように修正。また、I2Sボードと共通のGNDD（デジタル用GND）ピンを使うように修正。
+
+
+##### BOM / 主な部品
+  - [1.3" SPI OLED](https://www.amazon.com/LANMU-SSH1106-128X64-Display-Arduino/dp/B01G596QWU/ref=sr_1_1?ie=UTF8&qid=1486331859&sr=8-1&keywords=1.3%22+SPI+OLED)
+  - [Tactical Switch](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536)
+
+
 
 ## zeroui1
 
