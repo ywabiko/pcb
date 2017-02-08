@@ -132,7 +132,11 @@ UPDATE: OLEDに何か表示させているとそのノイズがひどいです�
 A pHAT-like add-on board that adds I2S DAC PCM5102A that should be able to work as an headphone amplifier (HPA).
 PCM5102's output pin is only line level, but it just worked when I plugged an earphone/headphone with [a breakout board out there](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac).
 
+UPDATE: Do not use. According to PCM5102A datasheet, the output minimum impedance is 1k ohm and the effective voltage is 2.1V, therefore the maximum effective current is 2.1mA, which means that driving headphones directly is very difficult and even dangerous.
+
 Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォンアンプとして使ってみようという pHAT のようなボードです。PCM5102Aの出力はラインレベルですが、[巷のブレイクアウト](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac)にイヤフォンやヘッドフォンをつないだら意外に聴けたので。
+
+UPDATE: PCM5102Aのデータシートによると出力側の最小インピーダンス 1kΩと実効電圧 2.1V ということから引き出せる実効電流が最大 2.1mAとなり、ヘッドフォンを駆動するのは厳しいというか危険です。真似しないでください。
 
 
 ##### BOM / 主な部品
@@ -168,3 +172,8 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
   - Electronic circuit / 電子回路全般 : [Adafruit](www.adafruit.com)
   - PCB fabrication service / PCB生産委託 : [OSH Park](oshpark.com)
   - CAD software / CAD ソフト : [KiCAD](http://kicad-pcb.org/)
+
+# Disclaimer / 免責事項
+
+Contents posted in this site is for informational purpose only and nothing is guaranteed.
+すべて無保証です。
