@@ -150,6 +150,10 @@ UPDATE: PCM5102Aのデータシートによると出力側の最小インピー�
 
 ![piamp2 front](images/piamp2-front.png)
 ![piamp2 back](images/piamp2-back.png)
+<a href="https://raw.github.com/ywabiko/pcb/master/images/piamp2-circuit.png">
+<img src="https://raw.github.com/ywabiko/pcb/master/images/piamp2-circuit.png"
+ alt="piamp2 circuit" title="piamp2 circuit" width="200" />
+</a>
 
 A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
 
