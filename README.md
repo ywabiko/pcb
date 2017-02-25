@@ -146,23 +146,19 @@ UPDATE: PCM5102Aのデータシートによると出力側の最小インピー�
 
 # Raspberry Pi stuff / Raspberry Pi 関連
 
-## piamp1
+## piamp2
 
-![piamp1 front](images/piamp1-front.png)
-![piamp1 back](images/piamp1-back.png)
+![piamp2 front](images/piamp2-front.png)
+![piamp2 back](images/piamp2-back.png)
+![piamp2 circuit schematic](images/piamp2-circuit.png =200x)
 
 A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
 
-This PCB uses a circuit that was remixed from
-[Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm).
-
+UPDATE: Added a potentionmeter.
 
 Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
 
-このPCBの回路は
-[Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm)
-に掲載されている回路を参考にしています。
-
+UPDATE: ポテンションメーターを追加しました。
 
 ##### BOM / 主な部品
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
@@ -170,8 +166,8 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
   - [LTC1144C](https://www.digikey.com/product-detail/en/linear-technology/LTC1144CN8-PBF/LTC1144CN8-PBF-ND/891681)
   - [SJ1-3513-SMT-TR](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513-SMT-TR/CP1-3513SJCT-ND/659929)
 
-## smt1
 
+## smt1
 
 ![piamp1 front](images/smt1-front.png)
 ![piamp1 back](images/smt1-back.png)
