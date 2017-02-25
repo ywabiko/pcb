@@ -1,4 +1,4 @@
-# KiCAD projects for Raspberry Pi Zero
+# KiCAD projects for Raspberry Pi
 
 I've been working on Raspberry Pi Zero stuff mainly. I'm a super newbie in terms of electronic circuit and PCB design, but I've placed them here in this repo just in case someone finds them useful.
 
@@ -143,29 +143,38 @@ UPDATE: PCM5102Aのデータシートによると出力側の最小インピー�
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
   - [SJ1-3513-SMT-TR](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513-SMT-TR/CP1-3513SJCT-ND/659929)
 
-## piamp1
 
-![piamp1 front](images/piamp1-front.png)
-![piamp1 back](images/piamp1-back.png)
+# Raspberry Pi stuff / Raspberry Pi 関連
+
+## piamp2
+
+![piamp2 front](images/piamp2-front.png)
+![piamp2 back](images/piamp2-back.png)
 
 A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
 
-This PCB uses a circuit that was remixed from
-[Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm).
-
+UPDATE: Added a potentionmeter.
 
 Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
 
-このPCBの回路は
-[Raspberry Pi B+ for Sound source](http://www.single-ended.com/why-dont-use-raspberry-pi.htm)
-に掲載されている回路を参考にしています。
-
+UPDATE: ポテンションメーターを追加しました。
 
 ##### BOM / 主な部品
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
   - [NJM5532D](http://www.digikey.com/product-detail/en/njr-corporation-njrc/NJM5532D/NJM5532D-ND/805752)
   - [LTC1144C](https://www.digikey.com/product-detail/en/linear-technology/LTC1144CN8-PBF/LTC1144CN8-PBF-ND/891681)
   - [SJ1-3513-SMT-TR](https://www.digikey.com/product-detail/en/cui-inc/SJ1-3513-SMT-TR/CP1-3513SJCT-ND/659929)
+
+
+## smt1
+
+![piamp1 front](images/smt1-front.png)
+![piamp1 back](images/smt1-back.png)
+
+SMT soldering practice board featuring PCM5102A (TSSOP-20) that happens to be a breakout board as well.
+
+TSSOP-20 パッケージである PCM5102A を使って表面実装のはんだ付けを練習するための基板です。結果的にブレイクアウトとしての機能も兼ねています。
+
 
 # Acknowledgments / 謝辞
 
@@ -175,6 +184,6 @@ Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載�
 
 # Disclaimer / 免責事項
 
-Contents posted in this site is for informational purpose only and nothing is guaranteed.
-すべて無保証です。
+Contents posted in this site is for informational purpose only and nothing is guaranteed. Headphone amplifier is especially dangerous as it can cause permanent damage to your ears.
+すべて無保証です。特にヘッドフォンアンプ基板は大変危険ですので注意してください。
 
