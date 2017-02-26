@@ -157,11 +157,11 @@ UPDATE: PCM5102Aのデータシートによると出力側の最小インピー�
 
 A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
 
-UPDATE: Added a potentionmeter.
+UPDATE: Added a 10KR potentionmeter. Fixed a bug in capacitor polarity at LCT1144C -5V output pin.
 
 Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
 
-UPDATE: ポテンションメーターを追加しました。
+UPDATE: ポテンションメーター(10KR)を追加しました。LTC1144Cの-5Vからつながっているコンデンサの極性が間違っていたので直しました。
 
 ##### BOM / 主な部品
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)

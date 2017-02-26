@@ -162,7 +162,7 @@ U 1 1 589E29AA
 P 9700 3750
 F 0 "C1" H 9725 3850 50  0000 L CNN
 F 1 "CP" H 9725 3650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P2.50mm" H 9738 3600 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 9738 3600 50  0001 C CNN
 F 3 "" H 9700 3750 50  0000 C CNN
 	1    9700 3750
 	0    -1   -1   0   
@@ -173,7 +173,7 @@ U 1 1 589E2A88
 P 10100 5450
 F 0 "C2" H 10125 5550 50  0000 L CNN
 F 1 "CP" H 10125 5350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P2.50mm" H 10138 5300 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 10138 5300 50  0001 C CNN
 F 3 "" H 10100 5450 50  0000 C CNN
 	1    10100 5450
 	0    -1   -1   0   
@@ -264,7 +264,7 @@ F 1 "CP" H 4025 5700 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 4038 5650 50  0001 C CNN
 F 3 "" H 4000 5800 50  0000 C CNN
 	1    4000 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Notes 4100 5850 0    60   ~ 0
 10uF
