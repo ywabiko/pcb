@@ -624,9 +624,9 @@ $EndComp
 Text Notes 9700 1650 0    60   ~ 0
 (470R,2.2nF) = LPF@154KHz
 Text Notes 6350 4000 0    60   ~ 0
-(1uF, 33kR)\n= HPF@4.8KHz
+(1uF, 33kR)\n= HPF@4.8Hz
 Text Notes 9900 3700 0    60   ~ 0
-(1uF, 33kR)\n= HPF@4.8KHz
+(1uF, 33kR)\n= HPF@4.8Hz
 Wire Wire Line
 	8200 3750 9550 3750
 Wire Wire Line
