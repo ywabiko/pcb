@@ -132,6 +132,9 @@ UPDATE: OLEDに何か表示させているとそのノイズがひどいです�
 <img src="https://raw.github.com/ywabiko/pcb/master/images/zeroamp1-circuit.png"
  alt="zeroamp1 circuit" title="zeroamp1 circuit" width="200" />
 </a>
+<img src="https://raw.github.com/ywabiko/pcb/master/images/zeroamp1-assembled.jpg"
+ alt="zeroamp1 assembled" title="zeroamp1 assembled" width="200" />
+</a>
 
 A pHAT-like add-on board that adds I2S DAC PCM5102A. This was first expected to work as an headphone amplifier (HPA) but then turned out you cannot use it that way:)
 PCM5102's output pin is only line level, but it just worked when I plugged an earphone/headphone with [a breakout board out there](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac).
@@ -170,6 +173,9 @@ UPDATE: PCM5102Aで直接ヘッドフォンを駆動するのはもともと厳�
 <a href="https://raw.github.com/ywabiko/pcb/master/images/piamp2-circuit.png">
 <img src="https://raw.github.com/ywabiko/pcb/master/images/piamp2-circuit.png"
  alt="piamp2 circuit" title="piamp2 circuit" width="200" />
+</a>
+<img src="https://raw.github.com/ywabiko/pcb/master/images/piamp2-assembled.jpg"
+ alt="piamp2 assembled" title="piamp2 assembled" width="200" />
 </a>
 
 A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
