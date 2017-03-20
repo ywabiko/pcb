@@ -132,11 +132,21 @@ UPDATE: OLEDに何か表示させているとそのノイズがひどいです�
 A pHAT-like add-on board that adds I2S DAC PCM5102A. This was first expected to work as an headphone amplifier (HPA) but then turned out you cannot use it that way:)
 PCM5102's output pin is only line level, but it just worked when I plugged an earphone/headphone with [a breakout board out there](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac).
 
-UPDATE: DO NOT USE as headphone amplifier. According to PCM5102A datasheet, the output minimum impedance is 1k ohm and the effective voltage is 2.1V, therefore the maximum effective current is 2.1mA, which means that driving headphones directly is very difficult and even dangerous.
+UPDATE: USE WITH CAUTION as a headphone amplifier. According to
+PCM5102A datasheet, the output minimum impedance is 1kR and the
+effective voltage is 2.1V, therefore the maximum effective current is
+2.1mA. This circuitary inserts 1kR register there to limit the current
+to this maximum value. This is tested with an earphone that came with
+iPhone and it works fine, but please try at your own risk.
 
 Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォンアンプとして使ってみようという pHAT のようなボードです。PCM5102Aの出力はラインレベルですが、[巷のブレイクアウト](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac)にイヤフォンやヘッドフォンをつないだら意外に聴けたので。
 
-UPDATE: PCM5102Aのデータシートによると出力側の最小インピーダンス 1kΩと実効電圧 2.1V ということから引き出せる実効電流が最大 2.1mAとなり、ヘッドフォンを駆動するのは厳しいというか危険です。真似しないでください。どうなるか実験したい場合にはくれぐれも自己責任で。
+UPDATE: PCM5102Aで直接ヘッドフォンを駆動するのはもともと厳しいため、使
+用の際は注意が必要です。データシートによると出力側の最小インピーダンス
+1kRと実効電圧2.1V から引き出せる実効電流が最大 2.1mAとなります。この回
+路では 1kRの抵抗を入れることによって電流をこの最大値ぎりぎりに制限して
+います。実験した範囲ではiPhone付属イヤフォンで使えていますが、くれぐれ
+も自己責任でお願いします。
 
 
 ##### BOM / 主な部品
@@ -157,11 +167,11 @@ UPDATE: PCM5102Aのデータシートによると出力側の最小インピー�
 
 A HAT-like add-on board that adds I2S DAC PCM5102A and OP amp NJM5532D to Raspberry Pi 3. This should work as an headphone amplifier (HPA) more natually than zeroamp1 thanks to NJM5532D.
 
-UPDATE: Fixed a bug in XSMT pin that should be connected to 3.3V but was connected to 5V.
+UPDATE: Fixed a bug in potentionmeter pins.
 
 Raspberry Pi3 に I2S DAC である PCM5102A とOPアンプ NJM5532D を搭載してヘッドフォンアンプとして使ってみようという pHAT のようなボードです。
 
-UPDATE: XSMTピンを3.3Vにつなぐべきところ5Vにつないでいたので直しました。
+UPDATE: ポテンションメータのピン接続が間違っていたので直しました。
 
 ##### BOM / 主な部品
   - [PCM5102A](http://www.digikey.com/product-detail/en/texas-instruments/PCM5102APWR/296-36707-1-ND/4341334)
