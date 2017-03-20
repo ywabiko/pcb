@@ -597,7 +597,7 @@ F 3 "" H 4700 6050 50  0000 C CNN
 	1    4700 6050
 	1    0    0    -1  
 $EndComp
-Text Notes 5900 4900 0    60   ~ 0
+Text Notes 6000 5300 0    60   ~ 0
 10k
 $Comp
 L DUAL_POT RV1
@@ -968,9 +968,7 @@ Connection ~ 9250 5450
 Wire Wire Line
 	8000 5850 9250 5850
 Wire Wire Line
-	10500 3300 5750 3300
-Wire Wire Line
-	5750 3300 5750 4550
+	10500 3300 5650 3300
 Wire Wire Line
 	3350 6200 3350 6500
 Connection ~ 3350 6300
@@ -979,17 +977,8 @@ Wire Wire Line
 Wire Wire Line
 	6200 5050 6450 5050
 Wire Wire Line
-	5750 5150 5550 5150
-Wire Wire Line
-	5550 4750 5550 6300
+	5550 4550 5550 6300
 Connection ~ 5550 6300
-Wire Wire Line
-	5550 4750 5750 4750
-Connection ~ 5550 5150
-Wire Wire Line
-	5700 4950 5750 4950
-Wire Wire Line
-	5700 3350 5700 4950
 Wire Wire Line
 	7900 3750 7900 3600
 Wire Wire Line
@@ -1023,4 +1012,17 @@ Wire Wire Line
 Wire Wire Line
 	3650 4100 4000 4100
 Connection ~ 4000 4100
+Wire Wire Line
+	5650 3300 5650 4750
+Wire Wire Line
+	5650 4750 5750 4750
+Wire Wire Line
+	5700 3350 5700 5150
+Wire Wire Line
+	5700 5150 5750 5150
+Wire Wire Line
+	5550 4550 5750 4550
+Wire Wire Line
+	5550 4950 5750 4950
+Connection ~ 5550 4950
 $EndSCHEMATC
