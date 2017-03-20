@@ -128,7 +128,6 @@ UPDATE: OLEDに何か表示させているとそのノイズがひどいです�
 
 ![zeroamp1 front](images/zeroamp1-front.png)
 ![zeroamp1 back](images/zeroamp1-back.png)
-
 <a href="https://raw.github.com/ywabiko/pcb/master/images/zeroamp1-circuit.png">
 <img src="https://raw.github.com/ywabiko/pcb/master/images/zeroamp1-circuit.png"
  alt="zeroamp1 circuit" title="zeroamp1 circuit" width="200" />
