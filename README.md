@@ -145,6 +145,9 @@ iPhone and it works fine, but please try at your own risk.
 
 Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォンアンプとして使ってみようという pHAT のようなボードです。PCM5102Aの出力はラインレベルですが、[巷のブレイクアウト](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac)にイヤフォンやヘッドフォンをつないだら意外に聴けたので。
 
+アナログ回路が最小限のためか、iPhone付属イヤフォンではノイズが感じられず、高音質です。
+（piamp2よりも音がいいです）。
+
 UPDATE: PCM5102Aで直接ヘッドフォンを駆動するのはもともと厳しいため、使
 用の際は注意が必要です。データシートによると出力側の最小インピーダンス
 1kRと実効電圧2.1V から引き出せる実効電流が最大 2.1mAとなります。この回
