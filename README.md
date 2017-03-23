@@ -184,19 +184,23 @@ UPDATE: OLEDに何か表示させているとそのノイズがひどいです�
  alt="zeroamp1 assembled" title="zeroamp1 assembled" width="200" />
 </a>
 
-A pHAT-like add-on board that adds I2S DAC PCM5102A. This was first
-expected to work as an headphone amplifier (HPA) but then turned out
-you cannot use it that way:) PCM5102's output pin is only line level,
-but it just worked when I plugged an earphone/headphone with [a
-breakout board out
-there](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac).
+A pHAT-like add-on board that adds I2S DAC PCM5102A that works as an
+headphone amplifier (HPA) (sort of). As you may know, PCM5102's output
+pin is only line level, not headphone level. But it just worked when I
+plugged an earphone/headphone with [a breakout board out
+there](https://www.amazon.com/Industry-Park-PCM5102-Decoder-Raspberry/dp/B01LYLEKVW/ref=sr_1_2?ie=UTF8&qid=1486141456&sr=8-2&keywords=i2s+dac). That
+was the beginning of this project.
 
-UPDATE: USE WITH CAUTION as a headphone amplifier. According to
-PCM5102A datasheet, the output minimum impedance is 1kR and the
-effective voltage is 2.1V, therefore the maximum effective current is
-2.1mA. This circuitary inserts 1kR register there to limit the current
-to this maximum value. This is tested with an earphone that came with
-iPhone and it works fine, but please try at your own risk.
+Probably thanks to the minimized analog circuitry, noise level is
+pretty low and sound quality is surprisingly good. (Much better than
+piamp2 below.)
+
+USE WITH CAUTION as a headphone amplifier. According to PCM5102A
+data sheet, the output minimum impedance is 1kR and the effective
+voltage is 2.1V, therefore the maximum effective current is
+2.1mA. This circuitry inserts 1kR registers there to limit the
+current to this maximum value. This is tested with an earphone that
+came with iPhone and it works fine, but please try at your own risk.
 
 Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘッドフォ
 ンアンプとして使ってみようという pHAT のようなボードです。PCM5102Aの出
@@ -208,8 +212,8 @@ Raspberry Pi Zero に I2S DAC である PCM5102A を搭載して無理やりヘ�
 アナログ回路が最小限のためか、iPhone付属イヤフォンではノイズが感じられ
 ず、高音質です。（piamp2よりも音がいいです）。
 
-UPDATE: PCM5102Aで直接ヘッドフォンを駆動するのはもともと厳しいため、使
-用の際は注意が必要です。データシートによると出力側の最小インピーダンス
+ただし PCM5102Aで直接ヘッドフォンを駆動するのはもともと厳しいため、使用
+の際は注意が必要です。データシートによると出力側の最小インピーダンス
 1kRと実効電圧2.1V から引き出せる実効電流が最大 2.1mAとなります。この回
 路では 1kRの抵抗を入れることによって電流をこの最大値ぎりぎりに制限して
 います。実験した範囲ではiPhone付属イヤフォンで使えていますが、くれぐれ
