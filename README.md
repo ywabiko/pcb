@@ -31,6 +31,10 @@ $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 <img src="https://raw.github.com/ywabiko/pcb/master/images/nametag4.png"
  alt="nametag4 circuit" title="nametag4 circuit" width="200" />
 </a>
+<a href="https://raw.github.com/ywabiko/pcb/master/images/nametag4-photo.png">
+<img src="https://raw.github.com/ywabiko/pcb/master/images/nametag4-photo.png"
+ alt="nametag4 photo" title="nametag4 circuit" width="200" />
+</a>
 
 This is designed for the "programmable nametag" project.
 This PCB is to basically run a Trinket M0 off a single coin cell battery CR2450, which is a very challenging subject.
