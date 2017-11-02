@@ -41,10 +41,10 @@ CR2450の放電特性により現時点では30分の稼働が限界です。
 
 ##### BOM / 主な部品
   - [Adafruit Trinket M0](https://www.adafruit.com/product/3500)
-  - [Alibaba 0.96" SPI OLEDモジュール](https://www.aliexpress.com/item/Free-Shipping-0-96-blue-0-96-inch-OLED-module-New-128X64-OLED-LCD-LED-Display/32595649930.html?spm=a2g0s.9042311.0.0.pFmTZG)
-  - [Alibaba 3.3V昇圧モジュール](https://www.aliexpress.com/item/8pcs-500MA-0-8-3-3V-to-3-3V-DC-DC-Boost-Switch-power-Supply-Module/32409384326.html?spm=a2g0s.9042311.0.0.co4v40)
-  - [スライドスイッチ(SPDT)](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825232-1/A107673-ND/4021554)
-  - [CR2450ホルダー](https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BK-5033/BK-5033-ND/2330512)
+  - [Alibaba 0.96" SPI OLED module](https://www.aliexpress.com/item/Free-Shipping-0-96-blue-0-96-inch-OLED-module-New-128X64-OLED-LCD-LED-Display/32595649930.html?spm=a2g0s.9042311.0.0.pFmTZG)
+  - [Alibaba 3.3V regulator module](https://www.aliexpress.com/item/8pcs-500MA-0-8-3-3V-to-3-3V-DC-DC-Boost-Switch-power-Supply-Module/32409384326.html?spm=a2g0s.9042311.0.0.co4v40)
+  - [Slide Switch(SPDT)](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825232-1/A107673-ND/4021554)
+  - [CR2450 Holder](https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BK-5033/BK-5033-ND/2330512)
   - [CR2450](https://www.amazon.com/CELEWELL-Lithium-Battery-Candles-Remotes/dp/B01MY6ER49/ref=sr_1_2_sspa?ie=UTF8&qid=1509586493&sr=8-2-spons&keywords=CR2450&psc=1)
 
 # Raspberry Pi Zero stuff / Raspberry Pi Zero 関連
