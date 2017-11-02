@@ -33,11 +33,11 @@ $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 </a>
 
 This is desiged for driving Neopixel (WS2812B) strip. This requires a [Adafruit Trinket Mini 5V](https://www.adafruit.com/product/1501).
-If you want to drive many WS2812Bs, you might want to use a USB mobile battery like [Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini).
-For example, each WS2812B consumes 60mA at maximum brightness, i.e. 30 of those will consume 1.8A.
+If you want to drive many WS2812Bs, you might want to use a USB mobile battery like [Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini) to attach to the Trinket. This power will go to VCC pin for WS2812B through USB pin on the Trinket.
+(For example, each WS2812B consumes 60mA at maximum brightness, i.e. 30 of those will consume 1.8A.)
 
 Neopixel (WS2812B) を駆動するためのPCBです。[Adafruit Trinket Mini 5V](https://www.adafruit.com/product/1501)専用となっています。
-多数のWS2812Bを駆動するため、[Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini)などのUSBモバイルバッテリーから電源を供給することが前提です。
+多数のWS2812Bを駆動するため、[Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini)などのUSBモバイルバッテリーからTrinketに電源を供給することが前提です。この電源はTrinketのUSBピンからパススルーでWS2812B用のVCC端子に供給されます。
 （WS2812Bはフル点灯時で60mA消費しますので、30個で1.8Aほど必要になります。）
 
 ##### BOM / 主な部品
