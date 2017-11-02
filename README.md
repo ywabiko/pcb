@@ -21,7 +21,31 @@ boards or so.
 でも下記のPCB基板を手に入れることができます。Raspberry Pi Zero 用で
 $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 
-# Trinket M0 stuff / Trinket M0 関連
+# Trinket stuff / Trinket 関連
+
+## halloween1 (Halloween 1)
+
+![halloween1 front](images/halloween1-front.png)
+![halloween1 back](images/halloween1-back.png)
+<a href="https://raw.github.com/ywabiko/pcb/master/images/halloween1-circuit.png">
+<img src="https://raw.github.com/ywabiko/pcb/master/images/halloween1-circuit.png"
+ alt="halloween1 circuit" title="halloween1 circuit" width="200" />
+</a>
+
+This is desiged for driving Neopixel (WS2812B) strip. This requires a [Adafruit Trinket Mini 5V](https://www.adafruit.com/product/1501).
+If you want to drive many WS2812Bs, you might want to use a USB mobile battery like [Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini).
+For example, each WS2812B consumes 60mA at maximum brightness, i.e. 30 of those will consume 1.8A.
+
+Neopixel (WS2812B) を駆動するためのPCBです。[Adafruit Trinket Mini 5V](https://www.adafruit.com/product/1501)専用となっています。
+多数のWS2812Bを駆動するため、[Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini)などのUSBモバイルバッテリーから電源を供給することが前提です。
+（WS2812Bはフル点灯時で60mA消費しますので、30個で1.8Aほど必要になります。）
+
+##### BOM / 主な部品
+  - [Adafruit Trinket Mini 5V](https://www.adafruit.com/product/1501)
+  - [Alibaba Neopixel strip](https://www.aliexpress.com/item/1m-4m-5m-WS2812B-Smart-led-pixel-strip-Black-White-PCB-30-60-144-leds-m/2036819167.html?spm=a2g0s.9042311.0.0.Opvd5o)
+  - [Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini)
+  - [Capacitor 1000uF](https://www.digikey.com/product-detail/en/panasonic-electronic-components/16SEPF1000M/P16300-ND/4204137)
+  - [Resister 470R](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNF14FTD470R/RNF14FTD470RCT-ND/1975003)
 
 ## nametag4 (Nametag Type 4)
 

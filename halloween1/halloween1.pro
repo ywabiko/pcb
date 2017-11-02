@@ -1,4 +1,4 @@
-update=11/1/2017 6:44:28 PM
+update=9/11/2017 7:55:13 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,7 +30,7 @@ version=1
 LibDir=../lib/MyModule
 [eeschema/libraries]
 LibName1=MyComponent
-LibName2=nametag1-rescue
+LibName2=halloween1-rescue
 LibName3=power
 LibName4=device
 LibName5=transistors
@@ -62,13 +62,3 @@ LibName30=contrib
 LibName31=valves
 LibName32=Lolin32
 LibName33=ESP32_MiniKit
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
