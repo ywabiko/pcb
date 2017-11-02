@@ -1,6 +1,6 @@
-# KiCAD projects for Raspberry Pi
+# My KiCAD projects
 
-I've been working on Raspberry Pi Zero stuff mainly. I'm a super
+I've been working on various PCB projects including Raspberry Pi Zero stuff. I'm a super
 newbie in terms of electronic circuit and PCB design, but I've placed
 them here in this repo just in case someone finds them useful.
 
@@ -9,9 +9,9 @@ get the exact same PCB.  Add-on boards for Raspberry Pi Zero would
 cost $15/3 boards or so, and ones for Raspberry Pi would cost $29/3
 boards or so.
 
-# ラズパイ向けPCBのKiCADソース
+# 自作PCBのKiCADソース
 
-現在は Raspberry Pi Zero 関連が主たるターゲットになっています。電子回路
+いろいろと作っていますが、 Raspberry Pi Zero 関連が多いです。電子回路
 もPCB設計も超ど素人ですが、何かの参考になれば。
 
 はんだ付け初心者のためスルーホール/DIPが基本になっていますが I2Sになる
@@ -21,6 +21,27 @@ boards or so.
 でも下記のPCB基板を手に入れることができます。Raspberry Pi Zero 用で
 $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 
+# Trinket M0 stuff / Trinket M0 関連
+
+## nametag4
+
+![nametag4 front](images/nametag4-front.png)
+![nametag4 back](images/nametag4-back.png)
+![nametag4 schematic](images/nametag4.png)
+
+This is designed for the "programmable nametag" project.
+This PCB is to basically run a Trinket M0 off a single coin cell battery CR2450.
+Due to discharging behavior of CR2450, this runs for 30-min only at this point.
+
+プログラマブル名札プロジェクト向けのPCBです。Trinket M0をCR2450で駆動するという難題に挑戦しています。
+CR2450の放電特性により現時点では30分の稼働が限界です。
+
+##### BOM / 主な部品
+  - [Adafruit Trinket M0](https://www.adafruit.com/product/3500)
+  - [Alibaba 0.96" SPI OLEDモジュール](https://www.aliexpress.com/item/Free-Shipping-0-96-blue-0-96-inch-OLED-module-New-128X64-OLED-LCD-LED-Display/32595649930.html?spm=a2g0s.9042311.0.0.pFmTZG)
+  - [Alibaba 3.3V昇圧モジュール](https://www.aliexpress.com/item/8pcs-500MA-0-8-3-3V-to-3-3V-DC-DC-Boost-Switch-power-Supply-Module/32409384326.html?spm=a2g0s.9042311.0.0.co4v40)
+  - [CR2450ホルダー](https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BK-5033/BK-5033-ND/2330512)
+  - [スライドスイッチ(SPDT)](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825232-1/A107673-ND/4021554)
 
 # Raspberry Pi Zero stuff / Raspberry Pi Zero 関連
 
