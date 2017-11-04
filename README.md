@@ -21,6 +21,33 @@ boards or so.
 でも下記のPCB基板を手に入れることができます。Raspberry Pi Zero 用で
 $15/3枚、Raspberry Pi用で$29/3枚ほどです。
 
+# ESP32 Stuff / ESP32 関連
+
+## senselight (Sense Light)
+
+![senselight front](images/senselight-front.png)
+![senselight back](images/senselight-back.png)
+<a href="https://raw.github.com/ywabiko/pcb/master/images/senselight-circuit.png">
+<img src="https://raw.github.com/ywabiko/pcb/master/images/senselight-circuit.png"
+ alt="senselight circuit" title="senselight circuit" width="200" />
+</a>
+
+This is designed for a sensor light based on ESP32 (Lolin32), a cheap doppler radar RCWL-0516 and WS2812B (NeoPixel) strip.
+
+ESP32ベースのセンサーライトのためのPCBです。安価なドップラーレーダー RCWL-0516 をセンサーに使い、WS2812B (NeoPixel)をライトに使っています。
+
+
+##### BOM / 主な部品
+  - [WEMOS Lolin32](https://www.aliexpress.com/item/4-MB-Flash-WEMOS-Lolin32-V1-0-0-WIFI-Bluetooth-Card-Based-ESP-32-ESP-WROOM/32823891656.html?spm=2114.search0104.3.1.29jdAa&ws_ab_test=searchweb0_0,searchweb201602_2_10152_10065_10151_10068_10130_10344_10345_10547_10342_10546_10343_10340_10341_10548_10545_10541_10307_10060_10155_10154_10056_10055_10539_10537_10536_10059_10534_10533_100031_10103_10102_5670011_10142_10107_10324_10325_5660011_10084_10083_10178_10312_10313_10314_10550_10073_10551_10552_10553_10554_10557_10558_5650011-10550,searchweb201603_2,ppcSwitch_5&btsid=d5ef9bae-9ae4-4067-8585-9b35d2c73476&algo_expid=c2cc867b-87ff-4f75-8582-14f1520c372a-0&algo_pvid=c2cc867b-87ff-4f75-8582-14f1520c372a)
+  - [Alibaba Neopixel strip](https://www.aliexpress.com/item/1m-4m-5m-WS2812B-Smart-led-pixel-strip-Black-White-PCB-30-60-144-leds-m/2036819167.html?spm=a2g0s.9042311.0.0.Opvd5o)
+  - [Alibaba RCWL-0516](https://www.aliexpress.com/item/Free-Shipping-5-Pieces-RCWL-0516-Microwave-Radar-Sensor-Module-Human-Body-Induction-Switch-Module/32773310756.html?spm=a2g0s.9042311.0.0.UX69yh)
+  - [Anker PowerCore+ Mini](https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_3?ie=UTF8&qid=1509648543&sr=8-3&keywords=anker+battery+mini)
+  - [Capacitor 1000uF](https://www.digikey.com/product-detail/en/panasonic-electronic-components/16SEPF1000M/P16300-ND/4204137)
+  - [Resister 470R](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNF14FTD470R/RNF14FTD470RCT-ND/1975003)
+  - [Resister 10KR](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNF14FTD470R/RNF14FTD470RCT-ND/1975003)
+  - [BSS138](https://www.digikey.com/product-detail/en/diodes-incorporated/BSS138TA/BSS138ZXCT-ND/92633)
+  - [Slide Switch(SPDT)](https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825232-1/A107673-ND/4021554)
+
 # Trinket stuff / Trinket 関連
 
 ## halloween1 (Halloween 1)
