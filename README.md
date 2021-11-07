@@ -358,7 +358,7 @@ TSSOP-20 パッケージである PCM5102A を使って表面実装のはんだ�
 
   - Electronic circuit / 電子回路全般 : [Adafruit](www.adafruit.com)
   - PCB fabrication service / PCB生産委託 : [OSH Park](oshpark.com)
-  - CAD software / CAD ソフト : [KiCAD](http://kicad-pcb.org/)
+  - CAD software / CAD ソフト : [KiCAD](http://kicad.org/)
 
 # Disclaimer / 免責事項
 
